@@ -1,25 +1,58 @@
 #card {
-    border-radius: 20px;
+    border-radius: 1.25rem;
+    border: 0.0625rem solid $black;
+    box-shadow: 0.5rem 0.5rem 0 rgba(0, 0, 0, 1);
     margin: auto;
-    card-img-top {
-        width: 279px;
-        height: 200px;
-        border-radius: 10px;
+
+    .card-img-top {
+        width: 17.4375rem;
+        height: 12.5rem;
+        border-radius: 0.625rem;
     }
+
     .card-body {
         display: flex;
         flex-direction: column;
+        padding: 1rem 0 1.5rem 0;
 
         .learning {
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 26px;
-            width: 69px;
+            height: 1.625rem;
+            width: 4.3125rem;
+            background-color: $yellow;
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+            margin-bottom: 0.75rem;
 
             p {
                 margin: 0;
             }
         }
+
+        .date {
+            font-size: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-text {
+            color: $grey;
+            font-size: 0.875rem;
+        }
+    }
+
+    .card-footer {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: transparent;
+        gap: 0.34375rem;
     }
 }
