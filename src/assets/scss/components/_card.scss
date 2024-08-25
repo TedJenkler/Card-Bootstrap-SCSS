@@ -1,0 +1,25 @@
+#card {
+    border-radius: 20px;
+    margin: auto;
+    card-img-top {
+        width: 279px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+
+        .learning {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 26px;
+            width: 69px;
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
