@@ -4,8 +4,8 @@ import user from '../src/assets/images/userpic.png';
 function App() {
   return (
     <main className="container px-4">
-      <div className="row d-flex justify-content-center align-items-center h-100">
-        <div className="col-12">
+      <div className="row d-flex justify-content-center align-items-center h-100 w-100">
+        <div className="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
           <div id='card' className="card p-4" aria-labelledby="card-title">
             <img className="card-img-top" src={cardimg} alt="HTML & CSS foundations course" />
             <div className="card-body">
